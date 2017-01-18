@@ -1,20 +1,52 @@
 form {
-	width: 40em;
+	width: 593px;
+	background-color: #f4f4f4;
+	margin: auto auto;
+	border-radius: 10px;
 }
 
 form * {
+	font-family: Helvetica;
 	margin: 10px;
 }
 
+form h3 {
+	font-weight: bold;
+	padding-top: 15px;
+}
+
 form textarea {
-	width: 40em;
-	height: 10em;
+	margin-top:15px;
+	width: 573px;
+	height: 175px;
+	padding: 10px;
+	border: 1px solid #c9c7c7;
+	border-radius: 5px;
 }
 
 form input {
-	width: 19em;
+	border-radius: 5px;
+	height: 30px;
+	border: 1px solid #c9c7c7;
+	margin-top: 5px;
 }
 
-input {
-	
+form input:not([type="submit"]) {
+	width: 274px;
+	padding: 10px;
+}
+
+form input[type="submit"] {
+	width: 125px;
+	color: #7da061;
+	font-weight: bold;
+	padding: 0px;
+	background-image: -moz-linear-gradient(top, #ffffff 0%, #ddd 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #ddd 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #ddd 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0% ,#ddd 100%);
+}
+
+form input[type="date"]::-webkit-inner-spin-button{
+    display: none;
 }
