@@ -1,0 +1,20 @@
+form {
+	width: 40em;
+}
+
+form * {
+	margin: 10px;
+}
+
+form textarea {
+	width: 40em;
+	height: 10em;
+}
+
+form input {
+	width: 19em;
+}
+
+input {
+	
+}
