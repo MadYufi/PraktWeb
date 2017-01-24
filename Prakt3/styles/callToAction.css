@@ -1,0 +1,28 @@
+.callToAction {
+  display: block;
+  height: 545px;
+  width: 1200px;
+  background-image: url(../img/background.png);
+}
+
+.callToAction article:first-of-type {
+  margin-left: 133px;
+  float: left;
+}
+
+.callToAction article {
+  float: right;
+  font-size: 14px;
+  color: rgb(118, 118, 118);
+}
+
+.callToAction #mainImage {
+  display: block;
+  margin: auto auto;
+}
+
+.callToAction #mainText {
+	display: block;
+	margin: auto auto;
+	position: relative;
+}

@@ -1,0 +1,18 @@
+.emailSupport {
+	height: 100px;
+	width: 1200px;
+}
+
+.emailSupport article {
+	display: block;
+	margin-left: auto auto;
+}
+
+.emailSupport input[type=email] {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.34);
+  width: 827px;
+  height: 50px;
+  margin-left: 182px;
+}

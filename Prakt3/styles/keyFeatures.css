@@ -1,0 +1,27 @@
+.keyFeatures {
+	height: 210px;
+	width: 1200px;
+}
+
+.keyFeatures article:first-child {
+	margin-left: 133px;
+}
+
+.keyFeatures article {
+	margin-left: 50px;
+}
+
+.keyFeatures article img {
+	display: block;
+	float: left;
+}
+
+.keyFeatures article p {
+	display: block;
+	float: left;
+	margin-left: 40px;
+}
+
+.keyFeatures #star:active {
+	animation: rotation 1s infinite ease;
+}

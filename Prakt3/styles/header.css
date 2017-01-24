@@ -1,0 +1,25 @@
+header {
+	display: block;
+	height: 665px;
+	width: 1200px;
+	background-image: url(../img/background.png);
+}
+
+header #imac {
+	display: block;
+	margin: auto auto;
+	padding-top: 60px;
+}
+
+header #mainText {
+	display: block;
+	margin: auto auto;
+	position: relative;
+}
+
+header .text {
+  font-size: 14px;
+  color: rgb(118, 118, 118);
+  text-align: left;
+	margin-left: 50%;
+}
