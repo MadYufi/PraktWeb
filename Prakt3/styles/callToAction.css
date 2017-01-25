@@ -3,6 +3,7 @@
   height: 545px;
   width: 1200px;
   background-image: url(../img/background.png);
+  padding-top: 60px;
 }
 
 .callToAction article:first-of-type {
@@ -12,17 +13,38 @@
 
 .callToAction article {
   float: right;
-  font-size: 14px;
-  color: rgb(118, 118, 118);
 }
 
 .callToAction #mainImage {
   display: block;
   margin: auto auto;
+  z-index: 1;
 }
 
 .callToAction #mainText {
 	display: block;
 	margin: auto auto;
 	position: relative;
+  bottom: 90px;
+  z-index: 2;
+}
+
+.callToAction .buttons {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+
+.callToAction p {
+  position: relative;
+  right: 185px;
+  bottom: 52px;
+  font-size: 14px;
+  font-family: HelveticaNeue;
+  color: rgb(118, 118, 118);
+  line-height: 1.571;
+}
+
+.callToAction .buttons:last-of-type {
+  width: 114px;
 }

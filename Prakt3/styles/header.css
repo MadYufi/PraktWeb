@@ -5,21 +5,41 @@ header {
 	background-image: url(../img/background.png);
 }
 
+header input:first-of-type {
+	margin-left: 133px;
+}
+
+header input:last-of-type {
+  width: 114px;
+}
+
+header input {
+	margin-top: 37px;
+}
+
 header #imac {
 	display: block;
 	margin: auto auto;
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 header #mainText {
 	display: block;
 	margin: auto auto;
 	position: relative;
+	margin-top: 65px;
 }
 
-header .text {
+header p {
+	position: relative;
+	bottom: 4px;
+	display: block;
+	float: right;
+	font-family: HelveticaNeue;
   font-size: 14px;
+	line-height: 1.570;
   color: rgb(118, 118, 118);
   text-align: left;
-	margin-left: 50%;
+	margin-top: 37px;
+	margin-right: 180px;
 }

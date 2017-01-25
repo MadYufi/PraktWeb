@@ -14,5 +14,16 @@
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.34);
   width: 827px;
   height: 50px;
+	margin-top: 50px;
   margin-left: 182px;
+	padding-left: 13px;
+	z-index: 1;
+}
+
+.emailSupport input:last-of-type {
+  position: relative;
+  right: 131px;
+  width: 127px;
+  height: 50px;
+	z-index: 2;
 }

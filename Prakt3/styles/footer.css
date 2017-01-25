@@ -7,26 +7,73 @@ footer {
 }
 
 nav {
+  font-size: 16px;
+  font-family: Bebas;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(228, 228, 228);
   background-color: rgb(255, 255, 255);
+  line-height: 1.571;
   list-style-type: none;
   display: block;
   height: 62px;
   width: 940px;
   margin: auto auto;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: rgb(58, 58, 58);
+}
+
+nav a:link {
+  color: rgb(58, 58, 58);
+}
+
+nav a:hover {
+  color: #a8c66d;
 }
 
 nav * {
   display: inline;
-  margin-top: 23px;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
-nav img {
+nav .social {
+  width: 38px;
+  height: 36px;
   display: block;
   float: right;
-  margin-top: 13px;
-  margin-right: 14px;
+  position: relative;
+  bottom: 4px;
+  right: 14px;
+  margin-left: 8px;
+}
+
+nav #facebook {
+  background: url(../img/footer/facebook.png);
+}
+
+nav #pinterest {
+  background: url(../img/footer/pinterest.png);
+}
+
+nav #rss {
+  background: url(../img/footer/rss.png);
+}
+
+nav #twitter {
+  background: url(../img/footer/twitter.png);
+}
+
+
+nav p {
+  color: #a8c66d;
 }
