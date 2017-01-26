@@ -6,6 +6,28 @@ footer {
   padding-top: 50px;
 }
 
+footer .left {
+  display: block;
+  font-size: 16px;
+  font-family: "Bebas";
+  color: rgb(125, 125, 125);
+  line-height: 1.833;
+  margin-top: 20px;
+  float: left;
+  margin-left: 133px;
+}
+
+footer .right {
+  display: block;
+  font-size: 16px;
+  font-family: "Bebas";
+  color: rgb(125, 125, 125);
+  line-height: 1.833;
+  margin-top: 20px;
+  float: right;
+  margin-right: 133px;
+}
+
 nav {
   font-size: 16px;
   font-family: Bebas;
@@ -38,6 +60,15 @@ nav a:link {
 }
 
 nav a:hover {
+  color: #a8c66d;
+}
+
+.greenlink {
+  text-decoration: none;
+  color: #a8c66d;
+}
+
+.greenlink:visited {
   color: #a8c66d;
 }
 
