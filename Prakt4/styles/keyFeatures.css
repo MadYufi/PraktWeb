@@ -1,0 +1,51 @@
+.keyFeatures {
+	height: 210px;
+	width: 1200px;
+}
+
+.keyFeatures article:first-child {
+	margin-left: 133px;
+}
+
+.keyFeatures article {
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.keyFeatures .icon {
+
+	display: block;
+	float: left;
+}
+
+.keyFeatures article p {
+	display: block;
+	float: left;
+	margin-left: 37px;
+	font-size: 12px;
+	font-family: HelveticaNeue;
+	color: rgb(118, 118, 118);
+	line-height: 1.5;
+}
+
+.keyFeatures #star {
+	height: 50px;
+	width: 53px;
+	background: url(../img/keyFeatures/star.png);
+}
+
+.keyFeatures #magnify {
+	height: 48px;
+	width: 50px;
+	background: url(../img/keyFeatures/magnifyglass.png);
+}
+
+.keyFeatures #gadget {
+	height: 52px;
+	width: 52px;
+	background: url(../img/keyFeatures/gadget.png);
+}
+
+.keyFeatures #star:active {
+	animation: rotation 1s infinite ease;
+}

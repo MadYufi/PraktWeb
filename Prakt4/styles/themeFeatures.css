@@ -1,0 +1,28 @@
+.themeFeatures {
+	height: 360px;
+	width: 1200px;
+	display: inline-block;
+}
+
+.themeFeatures li {
+	font-family: HelveticaNeue;
+	list-style-image: url(../img/themeFeatures/box.png);
+	margin-left: 146px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: rgb(65, 65, 65);
+}
+
+.themeFeatures h2 {
+	margin-left: 133px;
+	margin-top: 54px;
+}
+
+.themeFeatures #display {
+	display: block;
+	height: auto;
+	width: auto;
+	float: right;
+	margin-top: 54px;
+	margin-right: 100px;
+}
