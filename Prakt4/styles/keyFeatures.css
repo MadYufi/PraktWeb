@@ -1,51 +1,60 @@
 .keyFeatures {
-	height: 210px;
+	height: 8%;
+	max-height: 8%;
+	max-width: 100%;
 	width: 1200px;
 }
 
-.keyFeatures article:first-child {
-	margin-left: 133px;
+.keyFeatures .flexContainter {
+	width: 80%;
+
+  display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+
+	margin: auto auto;
+	margin-bottom: 5%;
 }
 
-.keyFeatures article {
-	margin-top: 80px;
-	margin-left: 50px;
-}
-
-.keyFeatures .icon {
-
+.keyFeatures .flexContainter img {
 	display: block;
 	float: left;
 }
 
-.keyFeatures article p {
+.keyFeatures .flexContainter article {
+	margin-top: 3%;
+	margin-right: 5%;  /* Wooooooah */
+}
+
+.keyFeatures .flexContainter article p {
 	display: block;
 	float: left;
-	margin-left: 37px;
+	overflow: visible;
+	margin-left: 30px;
 	font-size: 12px;
 	font-family: HelveticaNeue;
 	color: rgb(118, 118, 118);
 	line-height: 1.5;
 }
 
-.keyFeatures #star {
+.keyFeatures .flexContainter #star {
 	height: 50px;
 	width: 53px;
 	background: url(../img/keyFeatures/star.png);
 }
 
-.keyFeatures #magnify {
+.keyFeatures .flexContainter #magnify {
 	height: 48px;
 	width: 50px;
 	background: url(../img/keyFeatures/magnifyglass.png);
 }
 
-.keyFeatures #gadget {
+.keyFeatures .flexContainter #gadget {
 	height: 52px;
 	width: 52px;
 	background: url(../img/keyFeatures/gadget.png);
 }
 
-.keyFeatures #star:active {
+.keyFeatures .flexContainter #star:active {
 	animation: rotation 1s infinite ease;
 }

@@ -1,50 +1,42 @@
 .callToAction {
   display: block;
-  height: 545px;
+  height: 10%;
   width: 1200px;
+  max-width: 100%;
   background-image: url(../img/background.png);
-  padding-top: 60px;
+  padding-top: 5%;
 }
 
-.callToAction article:first-of-type {
-  margin-left: 133px;
-  float: left;
-}
-
-.callToAction article {
-  float: right;
-}
-
-.callToAction #mainImage {
-  display: block;
-  margin: auto auto;
-  z-index: 1;
-}
-
-.callToAction #mainText {
+.callToAction img {
 	display: block;
 	margin: auto auto;
-	position: relative;
-  bottom: 90px;
-  z-index: 2;
+	max-width: 90%;
+  margin-bottom: 5%;
 }
 
-.callToAction .buttons {
-  position: relative;
-  bottom: 50px;
-  left: 50px;
+.callToAction .flexContainter {
+	display: flex;
+	margin: auto auto;
+	justify-content: center;
+	flex-flow: wrap;
+	width: 80%;
+	margin-top: 2%;
+	margin-bottom: 5%;
 }
 
-.callToAction p {
-  position: relative;
-  right: 185px;
-  bottom: 52px;
-  font-size: 14px;
-  font-family: HelveticaNeue;
-  color: rgb(118, 118, 118);
-  line-height: 1.571;
+.callToAction .flexContainter input {
+	flex: auto;
+	order: 1;
+	max-width: 175px;
+	margin-right: 3%;
+	margin-bottom: 3%;
 }
 
-.callToAction .buttons:last-of-type {
-  width: 114px;
+.callToAction .flexContainter p {
+	order: 2;
+	font-family: HelveticaNeue;
+	font-size: 14px;
+	/*line-height: 1.570;*/
+	color: rgb(118, 118, 118);
+	text-align: left;
 }
