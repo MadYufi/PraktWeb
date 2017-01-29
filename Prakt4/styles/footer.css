@@ -1,12 +1,13 @@
 footer {
   display: block;
-  height: 130px;
+  height: 5%;
   width: 1200px;
   max-width: 100%;
   background-image: url(../img/background.png);
 }
 
 footer nav {
+
   border-style: solid;
   border-width: 1px;
   border-color: rgb(228, 228, 228);
@@ -15,28 +16,38 @@ footer nav {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
-  width: 80%;
+  width: 85%;
   margin: auto auto;
   padding-top: 13px;
-  padding-left: 1%;
+  margin-bottom: 1%
 }
 
+
 footer nav div {
+  padding-bottom: 1%;
   display: inline-flex;
-  position: relative;
   bottom: 5px;
+  justify-content: space-around;
+  position: relative;
+  bottom: 20%;
+  margin-left: 20%; 
+  position: relative;
+  margin-right: 20%;
 }
+
 
 footer nav * {
   font-size: 16px;
   font-family: Bebas;
   color: rgb(58, 58, 58);
   font-weight: bold;
-  line-height: 1.571;
+  line-height: 1.570;
 }
 
 footer nav a {
-  text-decoration: none;.
+  text-decoration: none;
+  margin-right: 1%;
+  margin-top: 0.5%;
 }
 
 footer nav a:visited {
@@ -57,6 +68,8 @@ footer nav * {
 
 footer nav p {
   color: #a8c66d;
+  margin-top: 0.5%;
+  margin-right: 1%;
 }
 
 footer article {
@@ -64,6 +77,9 @@ footer article {
   margin: auto auto;
 }
 
+footer .align {
+
+}
 footer article {
   display: block;
   font-size: 16px;
@@ -75,10 +91,12 @@ footer article {
 
 footer article .left {
   float: left;
+  margin-left: 20%;
 }
 
 footer article .right {
   float: right;
+  margin-right:24%;
 }
 
 footer article a {
