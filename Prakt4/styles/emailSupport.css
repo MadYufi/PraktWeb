@@ -3,7 +3,7 @@
 	max-height: 4%;
 	width: 1200px;
 	max-width: 100%;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 .emailSupport article {
@@ -20,17 +20,24 @@
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.34);
   width: 100%;
 	max-width: 100%;
-  height: 50px;
+  height: 49px;
 	padding-left: 13px;
 	z-index: 1;
+	position: relative;
+	top: 30%;
+	margin-right: 20%;
+}
+
+.emailSupport input[placeholder] {
+	text-overflow: clip;  
 }
 
 .emailSupport input[type=button] {
   position: relative;
-	width: 33%;
-	max-width: 33%;
+	width: 21%;
+	max-width: 90%;
   height: 50px;
 	bottom: 50px;
-	left: 67%;
+	left: 87%;
 	z-index: 2;
 }
