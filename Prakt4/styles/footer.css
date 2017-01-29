@@ -1,6 +1,6 @@
 footer {
   display: block;
-  height: 5%;
+  height: 220px;
   width: 1200px;
   max-width: 100%;
   background-image: url(../img/background.png);
@@ -29,7 +29,7 @@ footer nav div {
   justify-content: space-around;
   position: relative;
   bottom: 20%;
-  margin-left: 20%; 
+  margin-left: 20%;
   position: relative;
   margin-right: 20%;
 }
@@ -87,12 +87,10 @@ footer article {
 
 footer article .left {
   float: left;
-  margin-left: 20%;
 }
 
 footer article .right {
   float: right;
-  margin-right:24%;
 }
 
 footer article a {
